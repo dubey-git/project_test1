@@ -16,6 +16,7 @@
     <p id="message">ARE YOU A BOT? PLEASE VERIFY YOUR FACE</p>
     <p id="ukhda" style="display: none;">Chaand sa mukhda, why so ukhda ukhda? Anyways ...</p>
     <p id="birthday" style="display: none;">🎉 Happy Birthday Anomaly 😺😺</p>
+    <button id="verifyButton">Start Verification</button>
   </div>
 
   <div class="video-container" id="videoWrapper" style="display: none;">
@@ -23,5 +24,45 @@
   </div>
 
   <script src="script.js"></script>
+  <!-- Append this at the end, just before </body> -->
+<div class="container" id="nameSlide" style="display: none;">
+  <img id="catImage" src="cat_1.webp" class="cat-img" />
+  <p class="question">Enter your name:</p>
+  <input type="text" id="nameInput" placeholder="Type here..." />
+  <button onclick="submitName()">Submit</button>
+</div>
+
+<div class="video-container" id="welcomeWrapper" style="display: none;">
+  <!-- welcome.mp4 will be injected here -->
+</div>
+<div class="container" id="choiceSlide" style="display: none;">
+  <img id="catChoiceImage" src="cat_6.webp" class="cat-img" />
+  <p class="question">Do you fw him ?</p>
+  <button onclick="handleChoice(true)">Yes</button>
+  <button onclick="handleChoice(false)">No</button>
+</div>
+
+<div class="video-container" id="dreamWrapper" style="display: none;"></div>
+<div class="video-container" id="loveWrapper" style="display: none;"></div>
+<div class="container" id="cat9Slide" style="display: none;">
+  <img src="cat_9.webp" class="cat-img" />
+</div>
+
+<audio id="stfuSound" src="stfu.mp3"></audio>
+
+<div class="video-container" id="nikloWrapper" style="display: none;">
+  <div class="video-text">jaa rha hu 🙏🏻</div>
+</div>
+
+<div class="container" id="poemSlide" style="display: none;">
+  <img id="poemImage" src="poem_1.webp" class="cat-img" />
+  <button id="nextPoem">Next</button>
+</div>
+
+<div class="video-container" id="sorryWrapper" style="display: none;"></div>
+
+<div class="container" id="lastSlide" style="display: none;">
+  <img src="last.webp" class="cat-img" />
+</div>
 </body>
 </html>

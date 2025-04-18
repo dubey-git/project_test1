@@ -41,6 +41,21 @@ body {
     margin-top: 10px;
   }
   
+  button {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff1493;
+  }
+  
   .video-container {
     display: flex;
     justify-content: center;
@@ -55,3 +70,82 @@ body {
     border-radius: 10px;
     box-shadow: 0 6px 16px rgba(255, 255, 255, 0.3);
   }
+  /* Add to the bottom of your existing style.css */
+
+#nameSlide {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.cat-img {
+  width: 220px;
+  max-width: 90vw;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+.question {
+  font-size: 24px;
+  color: #ffc0cb;
+}
+
+input {
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+#welcomeWrapper video {
+  width: 80%;
+  max-width: 640px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.3);
+}
+#choiceSlide button {
+  margin: 10px;
+  font-size: 18px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+}
+
+#choiceSlide button:hover {
+  background-color: #ff1493;
+}
+.video-text {
+  position: absolute;
+  bottom: 40px;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+#nextPoem {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+}
